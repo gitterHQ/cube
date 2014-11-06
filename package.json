@@ -1,5 +1,5 @@
 {
-  "name": "cube",
+  "name": "gitter-private-cube",
   "version": "0.2.12",
   "description": "A system for analyzing time series data using MongoDB and Node.",
   "keywords": [
@@ -21,6 +21,6 @@
     "pegjs": "0.7.0",
     "vows": "0.7.0",
     "websocket": "1.0.8",
-    "websocket-server": "git://github.com/miksago/node-websocket-server.git#dae6bed226ccfccf3939973155570b39dc8b3df0"
+    "websocket-server": "1.4.04"
   }
 }
