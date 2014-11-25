@@ -22,5 +22,8 @@
     "vows": "0.7.0",
     "websocket": "1.0.8",
     "websocket-server": "1.4.04"
+  },
+  "publishConfig": {
+    "registry": "http://beta-internal:8089/nexus/content/repositories/gitter-private/"
   }
 }
