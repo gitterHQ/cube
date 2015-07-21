@@ -5,5 +5,5 @@ module.exports = {
   "mongo-database": "cube_development",
   "mongo-username": null,
   "mongo-password": null,
-  "http-port": 1081
+  "http-port": process.env.EVALUATOR_PORT || 1081
 };
