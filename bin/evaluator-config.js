@@ -1,9 +1,6 @@
 // Default configuration for development.
+
 module.exports = {
-  "mongo-host": "127.0.0.1",
-  "mongo-port": 27017,
-  "mongo-database": "cube_development",
-  "mongo-username": null,
-  "mongo-password": null,
+  "mongo-url": process.env.MONGO_URL || "mongodb://127.0.0.1:27017,127.0.0.1:27018/cube_development?replicaSet=troupeSet",
   "http-port": process.env.EVALUATOR_PORT || 1081
 };
