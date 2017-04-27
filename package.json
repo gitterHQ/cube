@@ -1,5 +1,5 @@
 {
-  "name": "cube",
+  "name": "@gitterhq/cube",
   "version": "0.2.12",
   "description": "A system for analyzing time series data using MongoDB and Node.",
   "keywords": [
